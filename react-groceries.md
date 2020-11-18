@@ -47,7 +47,21 @@ Make your Grocery List look like this: https://codepen.io/madeline10302/pen/RwRO
 }
 ```
 
-1. Make an array of 5-8 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.)
+1. Make an array of 5-8 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.). Your array should look something like this:
+
+```js
+const groceries = [
+  {
+    item: 'Flour',
+    brand: 'Golden Start',
+    price: '12',
+    quantity: '1lb',
+    isPurchased: false
+  }
+  // Add the rest of your groceries
+  // Make sure they have consistent properties
+]
+```
 1. Conditionally render the grocery items based on whether or not they were purchased (ok to have hard coded values for isPurchased)
 1. Add some style to your app
 1. **Stretch Goal:** Add a button that says 'remove' and when clicked the value of `isPurchased` is toggled
@@ -64,8 +78,6 @@ Make your Grocery List look like this: https://codepen.io/madeline10302/pen/RwRO
 - change the 'remove' button's functionality to atually remove the item from the list
 - add a 'later' button that toggles the css (gray text, strikeout etc.) if the item should be purchased later
 - expand your app to allow for images (the images should be an http url ) and then render the image in your app - some images may take longer to load and not appear correctly, look into react life cycle events and/or lazy loading (if that is too much just keep trying images, some will work and save lifecycles/lazy loading for later)
-
-
 
 ---
 
