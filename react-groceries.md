@@ -8,7 +8,6 @@ Build an app that let's you make a list of groceries to buy
 
 - Practice setting up a React app
 - Practice Mocking a React app
-- Practice using state
 - Practice rendering a list
 - Practice conditional rendering
 
@@ -46,7 +45,6 @@ Build an app that let's you make a list of groceries to buy
 ```
 
 1. Make an array of 3 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.)
-1. Make inputs so that new items can be added
 1. Conditionally render the grocery items based on whether or not they were purchased (ok to have hard coded values for isPurchased)
 1. Add some style to your app
 1. **Stretch Goal:** Add a button that says 'remove' and when clicked the value of `isPurchased` is toggled
