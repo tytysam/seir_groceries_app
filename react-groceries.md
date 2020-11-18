@@ -2,7 +2,11 @@
 
 # React Groceries 
 
-Build an app that let's you make a list of groceries to buy
+Build an app that let's you make a list of groceries to buy. 
+
+Make your Grocery List look like this: https://codepen.io/madeline10302/pen/RwROmgr
+
+<img src="https://i.imgur.com/N20tCbL.png" />
 
 #### Learning Objectives
 
@@ -36,15 +40,14 @@ Build an app that let's you make a list of groceries to buy
 
 ```js
 {
-  item: '',
-  brand: '',
-  units: '',
-  quantity: 0,
-  isPurchased: false
+   item: '',
+   brand: '',
+   price: '',
+   isPurchased: false
 }
 ```
 
-1. Make an array of 3 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.)
+1. Make an array of 5-8 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.)
 1. Conditionally render the grocery items based on whether or not they were purchased (ok to have hard coded values for isPurchased)
 1. Add some style to your app
 1. **Stretch Goal:** Add a button that says 'remove' and when clicked the value of `isPurchased` is toggled
