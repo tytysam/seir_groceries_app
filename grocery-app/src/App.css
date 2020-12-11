@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: serif;
 }
 
 .App-header {
@@ -24,15 +14,43 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-container {
+  position: relative;
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  height: auto;
+
+  width: 40vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-container h1 {
+  margin: 15px auto;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  width: 35vw;
+  margin: 5px 10px;
+
+  color: #ffffff;
+  font-size: 14px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  margin: 20px 10%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 16px;
 }
